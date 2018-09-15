@@ -1,0 +1,17 @@
+{
+	"name": "linux-cmd",
+	"version": "1.0.0",
+	"description": "A basic NodeCLI to mimic basic linux commands, like, cd, ls, mkdir, etc",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"keywords": [
+		"linux", "linux-commands", "data-structures"
+	],
+	"author": {
+		"name": "Devendra Pratap Singh",
+		"email": "dps.manit@gmail.com"
+	},
+	"license": "ISC"
+}
