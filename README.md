@@ -3,11 +3,11 @@
 Task is to create an application which does a Linux Path Traversal. You would be implementing various Linux commands, as follows.
 
 ```bash
-    cd <path>
-    mkdir <path>
-    rm <path>
-    pwd
-    ls
+$ cd <path>
+$ mkdir <path>
+$ rm <path>
+$ pwd
+$ ls
 ```
 
 There would be an additional command, for application purpose, which is `session clear`
@@ -16,6 +16,7 @@ It will clear all the previous operations and put back the application to starti
 Problem will have a command line environment, where testing input would be as command line input.
 
 ![image00](https://user-images.githubusercontent.com/5993833/45589746-d78e2100-b948-11e8-826c-e2a682336985.png)
+
 Above is just a representation. Basically, your application must keep running and keep accepting user input and keep providing outputs.
 
 At start, application would be at ROOT directory ‘/’. Overtime, application would be provided with various commands, your task is to successfully work on commands if there is a scope or throw error message.
